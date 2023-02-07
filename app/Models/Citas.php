@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Citas extends Model
+{
+    use HasFactory;
+    protected $primaryKey='idcitas';
+    protected $fillable=['idcitas','start','end','idmascotas'];
+}
